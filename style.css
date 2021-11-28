@@ -1,0 +1,85 @@
+/* Plus Jakarta Display is best for large headings and titles */
+/* font-family: 'Plus Jakarta Display', sans-serif; */
+
+/* Plus Jakarta Text has small adjustments for smaller text sizes. */
+/* font-family: 'Plus Jakarta Text', sans-serif; */
+
+/* Design Figma */
+/* https://www.figma.com/community/file/1000224878359129697 */
+
+body {
+  font-family: "Plus Jakarta Text", sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-light .navbar-brand {
+  font-weight: bold;
+}
+
+.hero-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #094b72;
+}
+
+.hero-subtitle {
+  font-family: "Plus Jakarta Text", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #4f4f4f;
+}
+
+.btn-blue {
+  background-color: hsl(202, 85%, 24%);
+}
+
+#section-why {
+  background-color: #c3e8f1;
+}
+
+.font-playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.font-poppin {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+#section-why p {
+  color: #8b8c8c;
+}
+
+.bg-blue {
+  background-color: #4285f4;
+}
+
+.bg-blue2 {
+  background-color: #c3e8f1;
+}
+
+.border-bottom-left-radius {
+  border-bottom-left-radius: 20%;
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 5rem;
+  }
+}
+
+.my-float {
+  position: fixed;
+  bottom: 47px;
+  right: 40px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #05546d;
+  z-index: 100;
+}
